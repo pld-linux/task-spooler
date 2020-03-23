@@ -1,12 +1,12 @@
 Summary:	Personal job scheduler
 Name:		task-spooler
 Version:	1.0
-Release:	0.1
+Release:	1
 License:	GPL v2+
 Group:		Applications
-URL:		http://vicerveza.homeunix.net/~viric/soft/ts
-Source0:	%{url}/ts-%{version}.tar.gz
+Source0:	http://vicerveza.homeunix.net/~viric/soft/ts/ts-%{version}.tar.gz
 # Source0-md5:	c7589cdc28115d8925794d713ff72dba
+URL:		http://vicerveza.homeunix.net/~viric/soft/ts
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
